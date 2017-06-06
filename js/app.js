@@ -165,7 +165,8 @@ $.ajax({
 		var rain = "rain";
 		var thunder = "thunder";
 		var snow = "snow";
-		var mist = "mist"
+		var mist = "mist";
+		var drizzle = "drizzle";
 
 		if(city.weather[0].description.indexOf(rain) != -1 || city.weather[0].description.indexOf(drizzle) != -1){
 
