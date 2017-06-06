@@ -69,12 +69,13 @@ var city;
 		var thunder = "thunder";
 		var snow = "snow";
 		var mist = "mist"
+		var drizzle = "drizzle";
 
 		if(city.weather[0].description.indexOf(cloud) != -1){
 
 			$('body').css("background-image", "url(" + array[4] +")");
 
-		}else if(city.weather[0].description.indexOf(rain) != -1){
+		}else if(city.weather[0].description.indexOf(rain) != -1 || city.weather[0].description.indexOf(drizzle) != -1){
 
 			$('body').css("background-image", "url(" + array[3] +")");
 		}else if(city.weather[0].description.indexOf(thunder) != -1){
@@ -166,7 +167,7 @@ $.ajax({
 		var snow = "snow";
 		var mist = "mist"
 
-		if(city.weather[0].description.indexOf(cloud) != -1){
+		if(city.weather[0].description.indexOf(rain) != -1 || city.weather[0].description.indexOf(drizzle) != -1){
 
 			$('body').css("background-image", "url(" + array[4] +")");
 
