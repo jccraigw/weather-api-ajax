@@ -1,0 +1,121 @@
+/**{
+
+	border:1px red solid !important;
+}*/
+body,html{
+
+	margin:0;
+	padding: 0;
+	width: 100%;
+}
+body{
+/*
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;*/
+  
+  background: no-repeat;
+   background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #4a5F70;
+    font-family: 'Cinzel', serif;
+    color: #ffffff;
+
+
+}
+h1{
+
+	font-size: 90px;
+}
+
+.col-md-12{
+
+	text-align: center;
+}
+.col-md-1{
+
+	float: right;
+}
+#temp{
+
+
+	font-size: 100px;
+	margin-bottom: 50px;
+}
+#location{
+
+	margin-top: 80px;
+
+}
+#min{
+
+	text-align: center;
+	
+
+}
+#max{
+
+
+	text-align: center;
+	
+}
+h4{
+	font-size: 30px;
+}
+#day{
+
+	margin-left: 20px;
+}
+@media (max-width: 500px){
+
+h4{
+
+	font-size: 15px;
+
+	
+
+}
+h1{
+
+	font-size: 60px;
+		
+
+	text-align: center;
+ 
+}
+#temp{
+
+
+	font-size: 70px;
+}
+#day{
+
+	margin-left: 15px;
+}
+#min{
+
+	margin-right: 15px;
+}
+
+
+}
+
+@media(max-width: 995px){
+
+
+	.col-md-1{
+
+	float: right;
+}
+
+#day{
+
+	margin-left: 15px;
+}
+#min{
+
+	margin-right: 15px;
+}
+
+}
